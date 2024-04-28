@@ -12,4 +12,7 @@ if __name__ == '__main__':
     calc.add_car(
         calculator.Car("Range Rover", 650000, 3, service_cost=3000, insurance_cost=7000),
     )
+    calc.add_car(
+        calculator.Car("Audi", 450000, 3, service_cost=2000, insurance_cost=5000),
+    )
     calc.print_cars()
