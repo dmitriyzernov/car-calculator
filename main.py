@@ -15,4 +15,7 @@ if __name__ == '__main__':
     calc.add_car(
         calculator.Car("Audi", 450000, 3, service_cost=2000, insurance_cost=5000),
     )
+    calc.add_car(
+        calculator.Car("Skoda Yeti", 250000, 2, service_cost=1000, insurance_cost=2000),
+    )
     calc.print_cars()
